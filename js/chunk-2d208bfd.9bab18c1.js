@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d208bfd"],{a5b5:function(e,n,t){"use strict";t.r(n);var o=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div",{attrs:{align:"center"}},[t("Header"),t("v-container",[t("h1",[e._v("Page not found.")])]),t("Footer")],1)},a=[],r=t("2877"),u={},c=Object(r["a"])(u,o,a,!1,null,null,null);c.options.__file="PageNotFound.vue";n["default"]=c.exports}}]);
-//# sourceMappingURL=chunk-2d208bfd.9bab18c1.js.map
