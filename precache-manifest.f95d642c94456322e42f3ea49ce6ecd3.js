@@ -52,7 +52,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fonts/MaterialIcons-Regular.da4ea5cd.ttf"
   },
   {
-    "revision": "0c1c49e3f8de9512d8b193f24a63da35",
+    "revision": "df2bf6e57a977eda6fb5a4b4c769c725",
     "url": "/index.html"
   },
   {
