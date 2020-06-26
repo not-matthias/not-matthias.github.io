@@ -1,6 +1,6 @@
-title: "Blog Title"
-author: "Blog Author"
-description: "Made with <b style=\"color: #f45;\">&lt;3</b> by <b><a href=\"https://github.com/niklasbuschmann\">@niklasbuschmann</a></b>"
+title: "not-matthias"
+author: "not-matthias"
+description: ""
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -23,12 +23,12 @@ minimal: false               # use simpler style
 
 navigation:
   - {file: "index.html", icon: home}
-  - {file: "README.md", icon: address-card}
+  - {file: "about.md", icon: address-card}
 
 external:                    # see http://fontawesome.com/icons
-#  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-#  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-#  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Github, icon: github, url: "https://github.com/not-matthias"}
+  - {title: Twitter, icon: twitter, url: "https://twitter.com/not_matthias"}
+  - {title: Mail, icon: envelope, url: "mailto:26800596+not-matthias@users.noreply.github.com"}
 
 comments:
 #  disqus_shortname: ""      # see https://disqus.com/
