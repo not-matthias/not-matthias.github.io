@@ -40,7 +40,7 @@ It turns out, the standard library actually does all these things behind the sce
 panic = "abort"
 ```
 
-Now lets fix the first error. Just looking at the attribute name says a lot. When our program [panics](https://doc.rust-lang.org/std/macro.panic.html), an unrecoverable error occurrs. Rust will unwind the stack, clean up the resources and show a nice error message. But in the kernel, there's no console and thus we have to handle these unrecoverable errors ourself. 
+Now lets fix the first error. Just looking at the attribute name says a lot. When our program [panics](https://doc.rust-lang.org/std/macro.panic.html), an unrecoverable error occurs. Rust will unwind the stack, clean up the resources and show a nice error message. But in the kernel, there's no console and thus we have to handle these unrecoverable errors ourself. 
 
 ```rust
 #![no_std]
@@ -205,7 +205,7 @@ let is_valid = unsafe { MmIsAddressValid(0 as _) };
 log!("MmIsAddressValid(0) returned %i", is_valid as u64);
 ```
 
-Now that we covered the basics, let's explore the advantages of Rust. The function [PsLookupProcessByProcessId](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pslookupprocessbyprocessid) is used to get a pointer to the `EPROCESS` structure, but it also needs to be cleaned up using [ObfDereferenceObject](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject). If you use C++ or C you'd have to do that everytime you want to return from the function. 
+Now that we covered the basics, let's explore the advantages of Rust. The function [PsLookupProcessByProcessId](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pslookupprocessbyprocessid) is used to get a pointer to the `EPROCESS` structure, but it also needs to be cleaned up using [ObfDereferenceObject](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject). If you use C++ or C you'd have to do that every time you want to return from the function. 
 
 ```c++
 bool do_something(HANDLE process_id) {
@@ -348,7 +348,7 @@ When I first started writing drivers in Rust, I thought it was simply not possib
 
 # Conclusion
 
-Using Rust for all kinds of projects is fun. No matter if you want to write a game in the browser using WASM, develop a CLI tool or whether you want to explore the depths of the kernel. Writing kernel drivers in Rust is certianly unusual but you can utilize the strong type system and for example the `Drop` trait to reduce the number of bugs at compile-time. The source code for the driver can be found [here](https://github.com/not-matthias/kernel-driver-with-rust).
+Using Rust for all kinds of projects is fun. No matter if you want to write a game in the browser using WASM, develop a CLI tool or whether you want to explore the depths of the kernel. Writing kernel drivers in Rust is certainly unusual but you can utilize the strong type system and for example the `Drop` trait to reduce the number of bugs at compile-time. The source code for the driver can be found [here](https://github.com/not-matthias/kernel-driver-with-rust).
 
 It has been a long time since I wrote a blog post, I hope you enjoyed reading it. I'd love to hear your thoughts and opinions about this topic.  
 
