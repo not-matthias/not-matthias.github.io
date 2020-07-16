@@ -205,7 +205,7 @@ let is_valid = unsafe { MmIsAddressValid(0 as _) };
 log!("MmIsAddressValid(0) returned %i", is_valid as u64);
 ```
 
-Now that we covered the basics, let's explore the advantages of Rust. The function [PsLookupProcessByProcessId](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pslookupprocessbyprocessid) is used to get a pointer to the `EPROCESS` structure, but it also needs to be cleaned up using [ObfDereferenceObject](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject). If you use C++ or C you'd have to do that every time you want to return from the function. 
+Now that we covered the basics, let's explore the advantages of Rust. The function [PsLookupProcessByProcessId](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pslookupprocessbyprocessid) is used to get a pointer to the `EPROCESS` structure, but it also needs to be cleaned up using [ObfDereferenceObject](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject). If you use C you'd have to do that every time you want to return from the function. 
 
 ```c++
 bool do_something(HANDLE process_id) {
