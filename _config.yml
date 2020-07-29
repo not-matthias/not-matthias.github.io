@@ -34,11 +34,5 @@ comments:
 #  disqus_shortname: ""      # see https://disqus.com/
 #  isso_domain: ""           # see https://posativ.org/isso/
 
-jekyll-analytics:
-  GoogleAnalytics:
-    id: UA-137396360-1
-
-whitelist: [jekyll-analytics]
 plugins:
   - jekyll-feed
-  - jekyll-analytics 
