@@ -38,6 +38,7 @@ jekyll-analytics:
   GoogleAnalytics:
     id: UA-137396360-1
 
+whitelist: [jekyll-analytics]
 plugins:
   - jekyll-feed
-  - jekyll-analytics
+  - jekyll-analytics 
