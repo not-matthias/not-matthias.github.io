@@ -102,7 +102,7 @@ If that's a big deal for you, you can take a look at [cargo-xbuild](https://gith
 
 # Linker Settings
 
-If you try to define and call kernel functions with our current project, it won't work because the linker can't find the libraries that define those functions. In order to get that to work, we need to extend the linker search path. Of course we could just hardcode the path in our application, but that's not really idiomatic. It turns out that [Trantect](https://github.com/Trantect) did that already in one of his projects. If you take a look at the [build script](https://github.com/Trantect/win-kmd-alloc/blob/master/build.rs), you'll see that it searches the Registry to find the path to the kernel libraries (in my case `C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\km`). Here's the code that is responsible for finding and setting the path.  
+If you try to define and call kernel functions with our current project, it won't work because the linker can't find the libraries that define those functions. In order to get that to work, we need to extend the linker search path. Of course we could just hardcode the path in our application, but that's not really idiomatic. It turns out that [Trantect](https://github.com/Trantect) did that already in one of their projects. If you take a look at the [build script](https://github.com/Trantect/win-kmd-alloc/blob/master/build.rs), you'll see that it searches the Registry to find the path to the kernel libraries (in my case `C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\km`). Here's the code that is responsible for finding and setting the path.  
 
 ```rust
 let windows_kits_dir = get_windows_kits_dir().unwrap();
