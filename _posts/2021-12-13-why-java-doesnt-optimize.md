@@ -132,4 +132,4 @@ Being able to pop the binary into the binary in [IDA](https://hex-rays.com/ida-p
 
 ---
 
-Did I really just spend 3 hours writing this blog post because of `-1` point out of `25`? Maybe. 
+Did I really just spend 3 hours writing this blog post because of `-1` point out of `24`? Maybe. 
