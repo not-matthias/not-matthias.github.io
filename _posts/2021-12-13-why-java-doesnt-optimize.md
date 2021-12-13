@@ -28,7 +28,7 @@ private void recoverMethodDecl() {
 
 I'll explain a little bit of the context. This code is part of the compiler we are currently writing in the [Compiler Construction](https://ssw.jku.at/Teaching/Lectures/UB/VL/) lecture. We are building our own compiler for a language called `MicroJava`. It has similar syntax compared to Java, but is much easier and more minmalistic. 
 
-An important part of compiler construction is the error handling and that's exactly what this method does. When the user enters an invalid method declaration (for example `void foo[);`) then we want to find a point where we can safely continue again. In this case, we are looking for `eof` (end of the program), `void` (a new method declaration), `type` (a new function with return value) or `program` (a new program declaration). There's also the method calls `tab.find()` (just looks up the symbol in the [symbol table](https://en.wikipedia.org/wiki/Symbol_table)) and `sym.name()`, but they are not important. 
+An important part of compiler construction is the error handling and that's exactly what this method does. When the user enters an invalid method declaration (for example `void foo[);`) then we want to find a point where we can safely continue again. In this case, we are looking for `eof` (end of the program), `void` (a new method declaration) or `type` (a new function with return value). There's also the method calls `tab.find()` (just looks up the symbol in the [symbol table](https://en.wikipedia.org/wiki/Symbol_table)) and `sym.name()`, but they are not important. 
 
 Don't worry if you didn't understand everything, that's not the focus of this blog post. 
 
