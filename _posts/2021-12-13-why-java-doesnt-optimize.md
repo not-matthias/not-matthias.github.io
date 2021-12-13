@@ -16,9 +16,8 @@ private void recoverMethodDecl() {
         boolean isEof = sym == Token.Kind.eof;
         boolean isVoid = sym == Token.Kind.void_;
         boolean isType = tab.find(sym.name()).kind == Obj.Kind.Type;
-        boolean isProgram = tab.find(sym.name()).kind == Obj.Kind.Prog;
 
-        if (!isEof && !isVoid && !isType && !isProgram) {
+        if (!isEof && !isVoid && !isType) {
             scan();
         } else {
             break;
@@ -52,8 +51,7 @@ private void recoverMethodDecl() {
         boolean isEof = (this.sym == Token.Kind.eof);
         boolean isVoid = (this.sym == Token.Kind.void_);
         boolean isType = ((this.tab.find(this.sym.name())).kind == Obj.Kind.Type);
-        boolean isProgram = ((this.tab.find(this.sym.name())).kind == Obj.Kind.Prog);
-        if (!isEof && !isVoid && !isType && !isProgram) {
+        if (!isEof && !isVoid && !isType) {
             scan();
             continue;
         } 
