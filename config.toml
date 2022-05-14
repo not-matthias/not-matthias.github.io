@@ -10,7 +10,7 @@ highlight_code = true
 highlight_theme = "ayu-dark"
 
 [extra]
-use_cdn = true
+use_cdn = false
 theme = "auto"      
 
 menu = [
