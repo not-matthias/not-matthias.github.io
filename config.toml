@@ -11,7 +11,7 @@ highlight_theme = "ayu-light"
 
 [extra]
 use_cdn = true
-theme = "light"      
+theme = "auto"      
 
 menu = [
     { name = "/posts", url= "/posts", weight= 1 },
