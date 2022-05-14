@@ -7,7 +7,7 @@ theme = "zola-theme"
 
 [markdown]
 highlight_code = true
-highlight_theme = "ayu-light"
+highlight_theme = "ayu-dark"
 
 [extra]
 use_cdn = true
