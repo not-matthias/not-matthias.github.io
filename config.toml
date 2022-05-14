@@ -1,0 +1,25 @@
+base_url = "https://not-matthias.github.io"
+title = "not-matthias"
+build_search_index = true
+generate_feed = true
+
+theme = "zola-theme"
+
+[markdown]
+highlight_code = true
+highlight_theme = "ayu-light"
+
+[extra]
+use_cdn = true
+theme = "light"      
+
+menu = [
+    { name = "/posts", url= "/posts", weight= 1 },
+    { name= "/projects", url= "/projects", weight= 2 },
+    { name= "/about", url= "/about", weight= 3 },
+]
+
+socials = [
+    { name= "twitter", url= "https://twitter.com/not_matthias", icon= "twitter" },
+    { name= "github", url= "https=//github.com/not-matthias/", icon = "github" },
+]
