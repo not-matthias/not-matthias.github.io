@@ -1,6 +1,7 @@
 ---
 title: "Custom Allocators in Rust"
 date: "2022-01-18"
+aliases: ["/rust-kernel-adventures/"]
 ---
 
 ## Preface

@@ -1,6 +1,7 @@
 ---
 title: "Kernel printing with Rust."
 date: "2020-08-21"
+aliases: ["/kernel-printing-with-rust/"]
 ---
 
 ## Preface

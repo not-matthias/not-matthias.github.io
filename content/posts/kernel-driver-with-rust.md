@@ -1,6 +1,7 @@
 ---
 title: "Writing a kernel driver with Rust."
 date: "2020-07-15"
+aliases: ["/kernel-driver-with-rust/"]
 ---
 
 # Preface
