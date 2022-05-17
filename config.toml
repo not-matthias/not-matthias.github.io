@@ -4,7 +4,7 @@ build_search_index = true
 generate_feed = true
 minify_html = true
 
-theme = "zola-theme"
+theme = "apollo"
 
 [markdown]
 highlight_code = true
