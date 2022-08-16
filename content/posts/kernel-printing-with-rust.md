@@ -1,8 +1,11 @@
----
-title: "Kernel printing with Rust."
-date: "2020-08-21"
-aliases: ["/kernel-printing-with-rust/"]
----
++++
+title = "Kernel printing with Rust"
+date = "2020-08-21"
+updated = "2022-08-16"
+aliases = ["/kernel-printing-with-rust/"]
++++
+
+**Update**: I recommend using the [`log`](https://crates.io/crates/log) and [`kernel-log`](https://crates.io/crates/kernel-log) crates for kernel logging. For more information, visit [ Kernel Driver with Rust in 2022](http://not-matthias.github.io/posts/kernel-driver-with-rust-2022/).
 
 ## Preface
 
