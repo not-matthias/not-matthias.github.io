@@ -28,7 +28,7 @@ pub extern "system" fn DriverEntry() -> u64 {
 
 # Crates
 
-Over the time, I realized that created a new kernel driver is quite a lot of effort. That's why I decided to extract the generic parts and turned them into crates. 
+Over the time, I realized that creating a new kernel driver is quite a lot of effort. That's why I decided to extract the generic parts and turn them into crates. 
 
 - **[kernel-build](https://github.com/not-matthias/kernel-build-rs)**: Automatically sets the linker paths. You don't have to copy [`build.rs`](https://github.com/not-matthias/kernel-build-rs/blob/main/build.rs) into every project anymore. 
 - **[kernel-alloc](https://github.com/not-matthias/kernel-alloc-rs)**: When you want to use [`Vec`](https://doc.rust-lang.org/stable/alloc/vec/struct.Vec.html) or [`Box`](https://doc.rust-lang.org/stable/alloc/boxed/struct.Box.html) in the kernel.
