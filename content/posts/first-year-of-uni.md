@@ -24,7 +24,7 @@ Since everyone is so knowledgeable, we encourage sharing their wisdom via presen
     <iframe src="https://discord.com/widget?id=1003680219388985404&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 </div>
 
-## University
+# University
 
 Before university even had started, I already tried to prepare. I read books, watched videos, read articles. It was fascinating to learn about concepts like [Spaced Repetition](https://en.wikipedia.org/wiki/Spaced_repetition) or [Active Recall](https://en.wikipedia.org/wiki/Testing_effect) and to see what works for other people, but I didn't use a lot of it during the year. 
 
@@ -71,7 +71,7 @@ Some tips from my side on the things that I would repeat:
 - **Discuss exams with others**: Whenever there's an upcoming exam, we would arrange a meeting on our Discord server to go through the exams from the previous years and discuss them as a group. Sometimes the correct answers aren't displayed, which makes this even more important. 
 - **Join clubs:** There aren't that many clubs at my university, but I highly recommend to join them. I joined our university CTF team [SIGFLAG](https://sigflag.at/) and participated in some events. It was alot of fun.  
 
-## Final words
+# Final words
 
 From the 13 years of education I had before, this year has been the most life-changing. I'm grateful for the support of my friends as I've navigated this new chapter in my life. I'm looking forward to the next year as I continue to grow and learn.
 
