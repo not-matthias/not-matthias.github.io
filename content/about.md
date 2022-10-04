@@ -1,6 +1,7 @@
 +++
 title = "About"
 path = "about"
+date = "2022-10-04"
 +++
 
 Hey, I'm @not-matthias. I'm interested in:
