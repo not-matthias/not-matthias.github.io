@@ -197,7 +197,7 @@ Yet these two examples don't work:
 
 `Box::new_zeroed()` refers to the `MaybeUninit::zeroed()` documentation, which mentions the following:
 
-> Note that dropping a MaybeUninit<T> will never call T's drop code. It is your responsibility to make sure T gets dropped if it got initialized.
+> Note that dropping a `MaybeUninit<T>` will never call T's drop code. It is your responsibility to make sure T gets dropped if it got initialized.
 
 So it is actually not the Rust compiler that's wrong, it's me. I'm still not sure why my `AllocatedMemory` implementations were not working, but I now know that lots of effort has been put into making `Box<T>` sound and safe.
 
