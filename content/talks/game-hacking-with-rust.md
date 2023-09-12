@@ -1,9 +1,9 @@
 +++
 title = "Game Hacking with Rust"
-description = "TODO"
+description = "Workshop at the 0xAthena Tech Workshop Day"
 weight = 0
 
 [extra]
-link_to = "https://github.com/not-matthias/amd_hypervisor"
+link_to = "https://0xa.at/events/0xathena"
 +++
 

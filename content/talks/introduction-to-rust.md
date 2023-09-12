@@ -1,9 +1,10 @@
 +++
 title = "Introduction to Rust"
-description = "TODO"
+description = "Talk I gave in front of friends at my university"
 weight = 0
+date = "2022-06-23"
 
 [extra]
-link_to = "https://github.com/not-matthias/amd_hypervisor"
+link_to = "https://0xa.at/events/introduction-to-rust"
 +++
 

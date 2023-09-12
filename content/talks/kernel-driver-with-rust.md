@@ -1,8 +1,9 @@
 +++
-title = "kernel-driver-with-rust"
-description = "The source code for my blog post 'Writing a kernel driver with Rust.'"
+title = "Kernel Driver with Rust"
+description = "The talk for my blog post 'Writing a kernel driver with Rust.' presented at Rust Linz"
 weight = 1
+date = "2020-10-08"
 
 [extra]
-link_to = "https://github.com/not-matthias/kernel-driver-with-rust"
+link_to = "https://www.youtube.com/watch?v=wREGR7QQHco"
 +++
