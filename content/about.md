@@ -17,6 +17,6 @@ I'm currenty studying Computer Science at the [Johannes Kepler University Linz](
 
 Twitter: [https://twitter.com/not_matthias](https://twitter.com/not_matthias) <br />
 Github: [https://github.com/not-matthias](https://github.com/not-matthias) <br />
-Discord: not-matthias#1403 <br />
+Discord: not_matthias <br />
 
 I always enjoy a good conversation, so feel free to DM me anytime :)
