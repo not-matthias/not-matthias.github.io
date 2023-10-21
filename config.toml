@@ -27,4 +27,9 @@ socials = [
 
 [extra.analytics]
 enabled = true
-goatcounter_user = "not-matthias"
+
+[extra.analytics.goatcounter]
+user = "not-matthias"
+
+[extra.analytics.umami]
+website_id = "74344cd8-1e87-4c38-8acd-f96049b8f07e"
