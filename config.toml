@@ -12,20 +12,25 @@ highlight_theme = "ayu-dark"
 
 [extra]
 use_cdn = false
-theme = "auto"
+theme = "toggle"
 
 menu = [
-    { name = "/posts", url= "/posts", weight= 1 },
-    { name= "/projects", url= "/projects", weight= 2 },
+    { name = "/posts", url = "/posts", weight = 1 },
+    { name = "/projects", url = "/projects", weight = 2 },
     { name= "/talks", url= "/talks", weight= 3 },
-    { name= "/about", url= "/about", weight= 4 },
+    { name = "/about", url = "/about", weight = 4 },
 ]
 
 socials = [
-    { name= "twitter", url= "https://twitter.com/not_matthias", icon= "twitter" },
-    { name= "github", url= "https://github.com/not-matthias/", icon = "github" },
+    { name = "twitter", url = "https://twitter.com/not_matthias", icon = "twitter" },
+    { name = "github", url = "https://github.com/not-matthias/", icon = "github" },
 ]
 
 [extra.analytics]
 enabled = true
-goatcounter_user = "not-matthias"
+
+[extra.analytics.goatcounter]
+user = "not-matthias"
+
+[extra.analytics.umami]
+website_id = "74344cd8-1e87-4c38-8acd-f96049b8f07e"
