@@ -1,7 +1,6 @@
 +++
 title = "Kernel Driver with Rust"
 description = "The talk for my blog post 'Writing a kernel driver with Rust.' presented at Rust Linz"
-weight = 1
 date = "2020-10-08"
 
 [extra]

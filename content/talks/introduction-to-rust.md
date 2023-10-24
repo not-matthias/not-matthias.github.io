@@ -1,7 +1,6 @@
 +++
 title = "Introduction to Rust"
 description = "Talk I gave in front of friends at my university"
-weight = 0
 date = "2022-06-23"
 
 [extra]
