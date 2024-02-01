@@ -356,7 +356,7 @@ Turns out that this solution generates the same assembly instructions as the loa
 
 On x86 CPUs, all memory operations have the ordering of [`AcqRel`](https://doc.rust-lang.org/std/sync/atomic/enum.Ordering.html#variant.AcqRel) so we don't need to specify it explicitly. The compiler also knows this, so all atomic operations can be optimized to much faster `mov` instructions.
 
-Comparing the code on [Comiler Explorer](https://rust.godbolt.org/z/1rPb1aT6o), we can see that there's absolutely no difference between the two solutions.
+Comparing the code on [Compiler Explorer](https://rust.godbolt.org/z/1rPb1aT6o), we can see that there's absolutely no difference between the two solutions.
 ```asm
 example::unsafe_static:
     mov     rax, qword ptr [rip + example::unsafe_static::CACHED_VALUE.0]
