@@ -1,8 +1,11 @@
----
-title: "Why Java doesn't optimize"
-date: "2021-12-13"
-aliases: ["/why-java-doesnt-optimize/"]
----
++++
+title = "Why Java doesn't optimize"
+date = "2021-12-13"
+aliases = ["/why-java-doesnt-optimize/"]
+
+[taxonomies]
+tags=["java"]
++++
 
 It was a nice monday evening, and I decided to take a look at the feedback of my university homeworks. More specifically, the feedback of my compiler construction homework. I got around 95-100% on the exercises, so I can't complain. But one thing caught my eye. 
 

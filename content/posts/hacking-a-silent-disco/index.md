@@ -1,6 +1,9 @@
 +++
 title = "Hacking a Silent Disco"
 date = "2023-10-21"
+
+[taxonomies]
+tags=["reverse engineering"]
 +++
 
 # Introduction

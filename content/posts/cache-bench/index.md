@@ -1,6 +1,9 @@
 +++
 title = "Benchmarking Caches in Rust"
 date = "2024-01-31"
+
+[taxonomies]
+tags=["rust", "performance"]
 +++
 
 <style>

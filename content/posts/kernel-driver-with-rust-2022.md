@@ -1,6 +1,9 @@
 +++
 title = "Kernel Driver with Rust in 2022"
 date = "2022-08-16"
+
+[taxonomies]
+tags=["windows kernel", "rust"]
 +++
 
 A lot has changed since I wrote my first blog post on [how to write kernel drivers with Rust](https://not-matthias.github.io/posts/kernel-driver-with-rust/). I learned more about the language and worked on more projects. The goal of this blog post is to keep you updated on the changes from the last 2 years. 

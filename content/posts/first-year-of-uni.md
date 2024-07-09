@@ -1,6 +1,9 @@
 +++
 title = "Reflecting on the first year of Uni"
 date = "2022-09-04"
+
+[taxonomies]
+tags=["life"]
 +++
 
 I read a blog post with this [exact same title](https://blaz.is/blog/post/first-year-of-uni/) by the [Heep](github.com/h33p). And since I also finished my first year of university a few months ago, I wanted to reflect on it as well. 

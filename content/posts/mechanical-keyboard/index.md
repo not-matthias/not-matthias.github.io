@@ -78,9 +78,9 @@ When I first heard about lubing, I thought that it was a joke. It just sounded s
 
 You might now think, can you even hear a difference? Well, let's try it out. One of these two recordings contains an unlubed key and one contains a lubed key.
 
-| Recording 1      | Recording 2 |
-| -----------  | ----------- |
-|  <audio async src="lubed.mp3" type="audio/mpeg" preload="auto" controls></audio> |   <audio async src="unlubed.mp3" type="audio/mpeg" preload="auto" controls></audio>|
+| Recording 1                                                                     | Recording 2                                                                       |
+| ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| <audio async src="lubed.mp3" type="audio/mpeg" preload="auto" controls></audio> | <audio async src="unlubed.mp3" type="audio/mpeg" preload="auto" controls></audio> |
 
 Could you hear the difference? Which one do you think is the lubed one and which is the unlubed one?
 

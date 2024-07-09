@@ -1,6 +1,9 @@
 +++
 title = "Reflecting on the second year of Uni"
 date = "2023-09-17"
+
+[taxonomies]
+tags=["life"]
 +++
 
 It's been a year since I wrote the blog post about my first year of university. It was truly life-changing, and I didn't think it could get any crazier... but it did.

@@ -3,6 +3,9 @@ title ="Writing a kernel driver with Rust"
 date = "2020-07-15"
 updated = "2022-08-16"
 aliases = ["/kernel-driver-with-rust/"]
+
+[taxonomies]
+tags=["windows kernel", "rust"]
 +++
 
 **Update**: A few things have changed since I wrote this blog post. For more information, visit [ Kernel Driver with Rust in 2022](http://not-matthias.github.io/posts/kernel-driver-with-rust-2022/).

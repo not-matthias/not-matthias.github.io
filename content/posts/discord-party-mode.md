@@ -1,6 +1,9 @@
 +++
 title = "Reverse Engineering Discord's Party Mode"
 date = "2022-05-15"
+
+[taxonomies]
+tags=["reverse engineering", "js"]
 +++
 
 If you haven't noticed yet, Discord added a 'Party Mode' because they are celebrating their 7th birthday. When a friend convinced me to enable it, I did the first few challenges, but quickly noticed that they are really repetitive.
