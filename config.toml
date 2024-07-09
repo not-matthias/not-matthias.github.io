@@ -9,7 +9,7 @@ taxonomies = [{ name = "tags" }]
 
 [markdown]
 highlight_code = true
-highlight_theme = "ayu-dark"
+highlight_theme = "ayu-light"
 
 [extra]
 use_cdn = false
