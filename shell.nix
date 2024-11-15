@@ -1,4 +1,4 @@
-{ pkgs ? import <nixpkgs> {} }:
-  pkgs.mkShell {
-    nativeBuildInputs = [ pkgs.zola ];
+{pkgs ? import <nixpkgs> {}}:
+pkgs.mkShell {
+  nativeBuildInputs = [pkgs.zola];
 }
