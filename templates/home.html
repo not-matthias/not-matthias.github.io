@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% macro home_page(section) %}
+    <main>
+        <article>
+            <section class="body">
+                {{ post_macros::page_header(title=section.title) }}
+                {{ section.content | safe }}
+            </section>
+        </article>
+    </main>
+{% endmacro home_page %}
+
+{% block main_content %}
+    {{ self::home_page(section=section) }}
+
+    <h1>Highlighted articles</h1>
+    {%
+    set highlights = [
+        get_page(path="posts/kernel-driver-with-rust.md"),
+        get_page(path="posts/mechanical-keyboard/index.md"),
+        get_page(path="posts/hacking-a-silent-disco/index.md"),
+    ]
+    %}
+    <main class="post-list">
+        {{ post_macros::list_posts(pages=highlights | sort(attribute="date") | reverse) }}
+    </main>
+
+    <h1>Recent articles</h1>
+    <main class="post-list">
+        {% set section = get_section(path="posts/_index.md") %}
+        {{ post_macros::list_posts(pages=section.pages | slice(end=5)) }}
+    </main>
+{% endblock main_content %}

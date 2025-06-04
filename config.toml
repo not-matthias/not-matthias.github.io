@@ -1,11 +1,14 @@
 base_url = "https://not-matthias.github.io"
 title = "not-matthias"
-build_search_index = true
+build_search_index = false
 generate_feeds = true
 minify_html = true
 
 theme = "apollo"
 taxonomies = [{ name = "tags" }]
+
+[link_checker]
+internal_level = "warn"
 
 [markdown]
 highlight_code = true
@@ -16,17 +19,19 @@ use_cdn = false
 theme = "toggle"
 
 menu = [
-    { name = "/posts", url = "/posts", weight = 1 },
-    { name = "/tags", url = "/tags", weight = 2 },
-    { name = "/projects", url = "/projects", weight = 3 },
-    { name = "/talks", url= "/talks", weight= 4 },
-    { name = "/about", url = "/about", weight = 5 },
+  { name = "/posts", url = "/posts", weight = 1 },
+  { name = "/projects", url = "/projects", weight = 2 },
+  { name = "/talks", url = "/talks", weight = 3 },
 ]
 
 socials = [
-    { name = "twitter", url = "https://twitter.com/not_matthias", icon = "twitter" },
-    { name = "github", url = "https://github.com/not-matthias/", icon = "github" },
+  { name = "twitter", url = "https://twitter.com/not_matthias", icon = "twitter" },
+  { name = "github", url = "https://github.com/not-matthias/", icon = "github" },
 ]
+
+[extra.taxonomies]
+sort_by = "name"
+reverse = false
 
 [extra.analytics]
 enabled = true
