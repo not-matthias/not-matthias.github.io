@@ -5,7 +5,6 @@ weight = 0
 
 
 [extra]
-local_image = "/projects/apollo.png"
+local_image = "apollo.png"
 link_to = "https://github.com/not-matthias/apollo"
 +++
-
