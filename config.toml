@@ -12,7 +12,11 @@ internal_level = "warn"
 
 [markdown]
 highlight_code = true
-highlight_theme = "ayu-light"
+highlight_theme = "css"
+highlight_themes_css = [
+  { theme = "ayu-dark", filename = "syntax-theme-dark.css" },
+  { theme = "ayu-light", filename = "syntax-theme-light.css" },
+]
 
 [extra]
 use_cdn = false
