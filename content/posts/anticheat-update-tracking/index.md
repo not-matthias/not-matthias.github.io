@@ -327,7 +327,7 @@ struct GameUpdate {
 
 We can then search for the `anticheat.x64.equ8.exe` file which is the main executable and download it.
 
-# FACEIT
+## FACEIT
 
 FACEIT is the anticheat of private leagues for games such as CSGO or League of Legends. They are one of the top anticheats in this space due to their invasive checks and little public information about their detections.
 
@@ -336,6 +336,6 @@ You can find the download link on their [anticheat page](https://www.faceit.com/
 It only includes the frontend iirc, and I didn't spend much more time on it.
 
 
-# ESEA
+## ESEA
 
 This anticheat requires you to have an account, and last time I checked their download page had a CAPTCHA, making it a little bit more inconvenient to track updates. Anyways, here's the download link: https://play.esea.net/index.php?s=downloads&d=download&id=1
