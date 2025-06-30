@@ -245,7 +245,7 @@ $ 7z l  EAAntiCheat.Installer.exe
 
 [Vanguard](https://en.wikipedia.org/wiki/Riot_Vanguard) is the anticheat used in Valorant and League of Legends, developed by Riot Games.
 
-Despite their advanced security features, is is relatively easy to track the updates. They provide a public API to fetch the latest config which includes the version and URL for the anticheats modules:
+Despite their advanced security features, is is relatively easy to track the updates. They provide a public API to fetch the latest config which includes the version and URL for the anticheats modules: `https://clientconfig.rpg.riotgames.com/api/v1/config/public`
 
 ```
 {
