@@ -52,7 +52,7 @@ There are three switch categories:
 
 You should know the **operating force** metric. It defines how much force you need to fully press the key. In my case, the switches have $43gf \pm 5gf$ operating force. So they are much lighter compared to the $60gf$ operating force of my previous keyboard. There are also **force travel graphs**, which you can use to better understand how much the switch travels when it's pressed. For a much deeper explanation, I suggest reading [this awesome article](https://www.theremingoat.com/blog/a-beginners-guide-to-force-curves). 
 
-**So how do you choose the switches?** If you have the option, try them out in person. Either go to a store or find someone who has a mechanical keyboard. Otherwise, look for reviews on YouTube (or [Invidious](https://invidious.namazso.eu/)). You can compare the operating force and force travel with your current keyboard. Also, don't forget to listen to sound tests (both lubed and unlubed) because you don't want a keyboard that sounds terrible. 
+**So how do you choose the switches?** If you have the option, try them out in person. Either go to a store or find someone who has a mechanical keyboard. Otherwise, look for reviews on YouTube (or [Invidious](https://invidious.io/)). You can compare the operating force and force travel with your current keyboard. Also, don't forget to listen to sound tests (both lubed and unlubed) because you don't want a keyboard that sounds terrible. 
 
 **Things to watch out for:**
 - **Tactile vs Linear**: Choosing the correct switch type is important for the sound, feeling, and performance. 
@@ -63,7 +63,7 @@ You should know the **operating force** metric. It defines how much force you ne
 
 <img alt="akko keycaps" async src="keycaps.png" width="700px"></img>
 
-Now we come to the fun part. Just like the keyboard base defines the raw layout, the keycaps are the polish. You can go wild when choosing them. Do you want a keyboard with only pink/white/blue/red/green keycaps? Or [blank keycaps without letters](https://rimgo.totaldarkness.net/XnYhO9p.jpg)? Or keycaps that [sound and look like you can eat them](https://invidious.namazso.eu/watch?v=8ZwmdU-cgY4)? Or maybe keycaps that are [built for RGB lighting](https://www.hyperxgaming.com/en/keyboards/keyboard-accessories/hyperx-pudding-keycaps)? You could even mix all the aforementioned keycaps if that's what you want (please don't actually do that). 
+Now we come to the fun part. Just like the keyboard base defines the raw layout, the keycaps are the polish. You can go wild when choosing them. Do you want a keyboard with only pink/white/blue/red/green keycaps? Or [blank keycaps without letters](https://rimgo.totaldarkness.net/XnYhO9p.jpg)? Or keycaps that [sound and look like you can eat them](https://youtube.com/watch?v=8ZwmdU-cgY4)? Or maybe keycaps that are [built for RGB lighting](https://www.hyperxgaming.com/en/keyboards/keyboard-accessories/hyperx-pudding-keycaps)? You could even mix all the aforementioned keycaps if that's what you want (please don't actually do that). 
 
 **Things to watch out for:**
 - **ANSI vs ISO keyboard layout:** As previously explained, you want to make sure that your keycaps have the correct sizes (e.g. for the enter or shift key). In my case, they included both layouts but it might be different in other sets. 
