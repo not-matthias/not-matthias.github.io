@@ -1,9 +1,10 @@
 +++
 title = "dotfiles-nix"
-description = "NixOS dotfiles and hardware configurations"
+description = "Personal dotfiles for NixOS"
 weight = 1
 
 [extra]
-link_to = "https://github.com/not-matthias/dotfiles-nix"
+github = "https://github.com/not-matthias/dotfiles-nix"
+tags = ["nix", "nixos", "flakes", "dotfiles"]
 +++
 

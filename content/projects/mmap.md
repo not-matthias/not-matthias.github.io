@@ -1,9 +1,10 @@
 +++
 title = "mmap"
-description = "Simple manual mapper written in Rust."
+description = "Manual mapper/code injector for Windows written in Rust"
 weight = 1
 
 [extra]
-link_to = "https://github.com/not-matthias/mmap"
+github = "https://github.com/not-matthias/mmap"
+tags = ["rust", "injection", "windows"]
 +++
 

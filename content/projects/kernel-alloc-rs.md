@@ -1,9 +1,10 @@
 +++
 title = "kernel-alloc-rs"
-description = "Minimalistic Windows Kernel Allocator."
+description = "Custom memory allocator for Windows Kernel Drivers written in Rust"
 weight = 1
 
 [extra]
-link_to = "https://github.com/not-matthias/kernel-alloc-rs"
+github = "https://github.com/not-matthias/kernel-alloc-rs"
+tags = ["rust", "allocator", "kernel", "windows"]
 +++
 

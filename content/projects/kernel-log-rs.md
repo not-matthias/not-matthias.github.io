@@ -1,9 +1,11 @@
 +++
 title = "kernel-log-rs"
-description = "A minimalistic logger for Windows Kernel Drivers."
+description = "Minimalistic logging framework for Windows kernel drivers written in Rust"
 weight = 1
 
 [extra]
-link_to = "https://github.com/not-matthias/kernel-log-rs"
+github = "https://github.com/not-matthias/kernel-log-rs"
+tagline = "Lightweight logging for Windows kernel drivers"
+tags = ["rust", "logging", "kernel", "windows"]
 +++
 

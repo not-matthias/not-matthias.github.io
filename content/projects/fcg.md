@@ -1,9 +1,11 @@
 +++
 title = "fcg-rs"
-description = "Anki Flashcards Generator."
+description = "Flashcards Generator for Anki"
 weight = 1
 
 [extra]
-link_to = "https://github.com/not-matthias/fcg-rs"
+github = "https://github.com/not-matthias/fcg-rs"
+tagline = "Generate Anki flashcard decks programmatically"
+tags = ["rust", "anki", "flashcards"]
 +++
 

@@ -1,10 +1,12 @@
 +++
 title = "rename-rs"
-description = "Easy modification of structure names."
+description = "Procedural macro for dynamic struct name generation"
 weight = 99
 # date = "2020-08-12"
 
 [extra]
-link_to = "https://github.com/not-matthias/rename-rs"
+github = "https://github.com/not-matthias/rename-rs"
+tagline = "Dynamic identifier creation in Rust macros"
+tags = ["rust", "macro", "code-generation"]
 +++
 

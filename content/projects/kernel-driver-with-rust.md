@@ -1,8 +1,10 @@
 +++
 title = "kernel-driver-with-rust"
-description = "The source code for my blog post 'Writing a kernel driver with Rust.'"
+description = "Source code for the blog post \"Kernel Driver with Rust\""
 weight = 1
 
 [extra]
-link_to = "https://github.com/not-matthias/kernel-driver-with-rust"
+github = "https://github.com/not-matthias/kernel-driver-with-rust"
+tagline = "Practical kernel driver development with Rust"
+tags = ["rust", "kernel", "windows"]
 +++

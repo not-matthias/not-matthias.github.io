@@ -1,9 +1,10 @@
 +++
 title = "obs-rs"
-description = "Capture frames of any game using OBS."
+description = "High-performance game frame capture using OBS graphics hooks in Rust."
 weight = 1
 
 [extra]
-link_to = "https://github.com/not-matthias/obs-rs"
+github = "https://github.com/not-matthias/obs-rs"
+tags = ["rust", "graphics", "game-capture"]
 +++
 

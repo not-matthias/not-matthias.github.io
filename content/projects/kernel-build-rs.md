@@ -1,9 +1,11 @@
 +++
 title = "kernel-build-rs"
-description = "Helper crate for building Windows Kernel Drivers."
+description = "Build system helper for Windows kernel drivers written in Rust"
 weight = 1
 
 [extra]
-link_to = "https://github.com/not-matthias/kernel-build-rs"
+github = "https://github.com/not-matthias/kernel-build-rs"
+tagline = "Simplify Windows kernel driver builds with Cargo"
+tags = ["rust", "build", "kernel", "windows"]
 +++
 
