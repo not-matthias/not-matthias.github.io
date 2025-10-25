@@ -1,7 +1,7 @@
 +++
 title = "Nemesis"
 description = "Customizable process and memory dumper for Windows"
-weight = 100
+weight = 99
 date = "2019-07-05"
 
 [extra]
@@ -9,4 +9,3 @@ remote_image = "https://user-images.githubusercontent.com/26800596/59287543-22d4
 github = "https://github.com/not-matthias/Nemesis"
 tags = ["windows", "dumper", "reverse-engineering"]
 +++
-
