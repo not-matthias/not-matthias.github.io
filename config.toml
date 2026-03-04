@@ -30,6 +30,8 @@ menu = [
 socials = [
   { name = "twitter", url = "https://twitter.com/not_matthias", icon = "twitter" },
   { name = "github", url = "https://github.com/not-matthias/", icon = "github" },
+  { name = "discord", url = "https://discord.com/users/242767728358719489", icon = "discord" },
+  { name = "linkedin", url = "https://www.linkedin.com/in/matthias-heiden/", icon = "linkedin" },
   { name = "rss", url = "/atom.xml", icon = "rss" },
 ]
 
