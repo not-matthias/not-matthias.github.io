@@ -182,12 +182,12 @@ By knowing that the encrypted module has a high entropy, which means that it's v
 let section = pe.section_by_name(".data");
 let (driver_start, driver_end) = section.find_padding_at(0);
 let encrypted_driver = section[driver_start..driver_end];
-let driver_module = decrypt(encrypted_driver);
+let driver_module = decode(encrypted_driver);
 assert_eq!(driver_module[..2], &[0x4D, 0x5A]);
 
 let (internal_start, internal_end) = section.find_padding_at(driver_end);
 let encrypted_internal = section[internal_start..internal_end];
-let internal_module = decrypt(encrypted_internal);
+let internal_module = decode(encrypted_internal);
 assert_eq!(internal_module[..2], &[0x4D, 0x5A]);
 ```
 
@@ -214,7 +214,7 @@ DECIMAL        HEXADECIMAL         DESCRIPTION
 ---------------------------------------------------------------------------------
 ```
 
-The downloaded file is `BEService.exe`, which also embeds their kernel driver which is extracted when the service is started. You can use the same techniques as with EAC to extract it, so I won't go into further details.
+The downloaded file is `BEService.exe`, which also embeds their kernel driver which is extracted when the service is started. You can use similar techniques as with EAC to extract it, so I won't go into further details.
 
 <small>
 While writing this blog post, I realized that some old download URLs of mine still worked. So it seems like the CDN is keeping not only the latest but also previous builds. Since the epoch timestamp only counts the seconds since 1970, it should only take a few days to enumerate all possible IDs. I've thrown together a quick POC, and unfortunately it seems like they are deleted old version :(
